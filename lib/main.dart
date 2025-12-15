@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'buttons/ButtonWidgetExample.dart';
+import 'package:fluttersecondapp/image/ImageWidget.dart';
 
 
 void main() {
@@ -28,5 +28,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => ButtonWidgetExample();
+  State<MyHomePage> createState() => ImageWidget();
 }
