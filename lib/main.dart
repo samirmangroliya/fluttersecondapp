@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttersecondapp/inkwell/InkWellExample.dart';
+import 'package:fluttersecondapp/scrollview/ScrollViewExample.dart';
 
 
 void main() {
@@ -28,5 +28,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => InkwellExample();
+  State<MyHomePage> createState() => ScrollviewExample();
 }
