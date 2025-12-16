@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fluttersecondapp/image/ImageWidget.dart';
 
+import 'column/ColumnExample.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -28,5 +30,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => ImageWidget();
+  State<MyHomePage> createState() => ColumnExample();
 }
