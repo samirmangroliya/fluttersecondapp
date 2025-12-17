@@ -13,7 +13,7 @@ class ListViewBuilderExample extends State<MyHomePage> {
           return ListTile(
             leading: Text("$index"),
             title: Text(cities[index]),
-            subtitle: Text(population[index]),
+            subtitle: Text("Population: ${population[index]}"),
             trailing: Icon(Icons.add),
           );
         },
