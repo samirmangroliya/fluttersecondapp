@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fluttersecondapp/themestyle/TextviewTheme.dart';
+
+import 'card/CardExample.dart';
 
 
 void main() {
@@ -34,5 +35,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => TextViewTheme();
+  State<MyHomePage> createState() => CardExample();
 }
