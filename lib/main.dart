@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:fluttersecondapp/themestyle/TextviewTheme.dart';
 
-import 'customfont/CustomFont.dart';
-import 'expanded/ExpandedWidget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.redAccent)),
+      theme: ThemeData(
+        primarySwatch: Colors.orange,
+        colorScheme: .fromSeed(seedColor: Colors.redAccent),
+        textTheme: TextTheme(
+          headlineLarge: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          labelSmall: TextStyle(fontSize: 21),
+        ),
+      ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -28,5 +34,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => CustomFont();
+  State<MyHomePage> createState() => TextViewTheme();
 }
