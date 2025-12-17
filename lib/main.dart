@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'containers/ContainerDecorations.dart';
-
+import 'expanded/ExpandedWidget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,9 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: .fromSeed(seedColor: Colors.redAccent),
-      ),
+      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.redAccent)),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -26,8 +23,9 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
+
   final String title;
 
   @override
-  State<MyHomePage> createState() => ContainerDecorationsExample();
+  State<MyHomePage> createState() => ExpandedWidgetExample();
 }
