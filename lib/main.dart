@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttersecondapp/wrap/WrapWidgetExample.dart';
+import 'package:fluttersecondapp/sizebox/SizeBoxExample.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,5 +38,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => WrapWidgetExample();
+  State<MyHomePage> createState() => SizeBoxExample();
 }
