@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttersecondapp/sizebox/SizeBoxExample.dart';
+import 'package:fluttersecondapp/richtext/RichTextViewWidget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,5 +38,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => SizeBoxExample();
+  State<MyHomePage> createState() => RichTextViewWidget();
 }
