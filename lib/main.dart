@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'customwidget/CustomWidgetExample.dart';
+import 'package:fluttersecondapp/customwidget/RoundedButtonExample.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,5 +38,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => CustomWidgetExample();
+  State<MyHomePage> createState() => RoundedButtonExample();
 }
