@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttersecondapp/textfield/TextFieldExample.dart';
-
+import 'datetime/DateTimeExample.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,6 +21,11 @@ class MyApp extends StatelessWidget {
           headlineLarge: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           labelSmall: TextStyle(fontSize: 21),
         ),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.orange,
+          foregroundColor: Colors.white, // title & icons
+          elevation: 0,
+        ),
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -34,5 +38,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => TextFieldExample();
+  State<MyHomePage> createState() => DateTimeExample();
 }
