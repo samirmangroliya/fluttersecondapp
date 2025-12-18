@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'datetime/DateTimeExample.dart';
+import 'gridview/GridViewDynamicExample.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,5 +39,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => DateTimeExample();
+  State<MyHomePage> createState() => GridViewDynamicExample();
 }
