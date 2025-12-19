@@ -12,7 +12,10 @@ class BMICalculatorExample extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor: Colors.orange, title: Text("BMI Calculator")),
+      appBar: AppBar(
+        backgroundColor: Colors.red.shade200,
+        title: Text("BMI Calculator", style: TextStyle(color: Colors.white)),
+      ),
       body: Container(
         color: bgColor,
         child: Center(
@@ -87,7 +90,8 @@ class BMICalculatorExample extends State<MyHomePage> {
                       }
 
                       setState(() {
-                        result = "$message \n Your BMI is: ${bmi.toStringAsFixed(2)}";
+                        result =
+                            "$message \n Your BMI is: ${bmi.toStringAsFixed(2)}";
                       });
                     } else {
                       setState(() {
