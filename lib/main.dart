@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fluttersecondapp/slider/SliderExample.dart';
+
+import 'gradient/GradientExample.dart';
 
 
 void main() {
@@ -39,5 +40,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => SliderExample();
+  State<MyHomePage> createState() => GradientExample();
 }
