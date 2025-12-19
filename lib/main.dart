@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttersecondapp/tweenanimations/TweenAnimationsExample.dart';
+import 'package:fluttersecondapp/rippleeffect/RippleEffectExample.dart';
 
 
 void main() {
@@ -39,5 +39,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => TweenAnimationsExample();
+  State<MyHomePage> createState() => RippleEffectExample();
 }
