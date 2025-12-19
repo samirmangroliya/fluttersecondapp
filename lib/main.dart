@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'animatedopacity/AnimatedOpacityExample.dart';
-
+import 'animatedcrossfade/AnimatedCrossFadeExample.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,5 +39,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => AnimatedOpacityExample();
+  State<MyHomePage> createState() => AnimatedCrossFadeExample();
 }
