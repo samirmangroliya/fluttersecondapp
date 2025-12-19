@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'gradient/GradientExample.dart';
+import 'cliprrect/ClipRRectExample.dart';
 
 
 void main() {
@@ -40,5 +40,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => GradientExample();
+  State<MyHomePage> createState() => ClipRRectExample();
 }
