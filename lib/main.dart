@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'cliprrect/ClipRRectExample.dart';
+import 'animatedcontainer/AnimatedContainerExample.dart';
 
 
 void main() {
@@ -40,5 +40,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => ClipRRectExample();
+  State<MyHomePage> createState() => AnimatedContainerExample();
 }
