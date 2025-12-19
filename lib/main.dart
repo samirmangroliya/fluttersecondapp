@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:fluttersecondapp/tweenanimations/TweenAnimationsExample.dart';
 
-import 'listwheelscrollview/ListWheelScrollViewExample.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,5 +39,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => ListWheelScrollViewExample();
+  State<MyHomePage> createState() => TweenAnimationsExample();
 }
