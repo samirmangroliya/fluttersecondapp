@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'bmicalculator/BMICalculatorExample.dart';
+import 'package:fluttersecondapp/slider/SliderExample.dart';
 
 
 void main() {
@@ -39,5 +39,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => BMICalculatorExample();
+  State<MyHomePage> createState() => SliderExample();
 }
