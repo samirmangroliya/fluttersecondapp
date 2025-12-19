@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fluttersecondapp/richtext/RichTextViewWidget.dart';
+
+import 'icons/IconWidget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,5 +39,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => RichTextViewWidget();
+  State<MyHomePage> createState() => IconWidget();
 }
