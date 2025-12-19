@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'animatedcontainer/AnimatedContainerExample.dart';
+import 'animatedopacity/AnimatedOpacityExample.dart';
 
 
 void main() {
@@ -40,5 +40,5 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => AnimatedContainerExample();
+  State<MyHomePage> createState() => AnimatedOpacityExample();
 }
